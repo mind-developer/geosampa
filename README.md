@@ -1,6 +1,6 @@
-# Prova de Conceito - API de Dados CSV para GeoSampa
+# API de Dados CSV para GeoSampa
 
-Este projeto é uma prova de conceito para a GeoSampa, criada com o objetivo de expor os dados contidos em um arquivo CSV em formato JSON via API. A API lê um arquivo CSV com informações de IDH (Índice de Desenvolvimento Humano) dos anos 2000 e 2010, obtido no site da GeoSampa, e o torna acessível por uma rota GET.
+Este projeto é uma API para a GeoSampa, criada com o objetivo de expor os dados contidos em um arquivo CSV em formato JSON via API. A API lê um arquivo CSV com informações de IDH (Índice de Desenvolvimento Humano) dos anos 2000 e 2010, obtido no site da GeoSampa, e o torna acessível por uma rota GET.
 
 ## Estrutura do Projeto
 
@@ -87,4 +87,4 @@ A resposta será uma lista de objetos JSON representando cada linha do arquivo C
 
 ## Objetivo
 
-Esta aplicação demonstra uma prova de conceito de uma API que lê e expõe dados CSV para consulta de informações. A API foi criada para ser facilmente escalável, permitindo que os dados CSV obtidos na GeoSampa sejam acessados em formato JSON para análise e integração em sistemas de visualização de dados e inteligência urbana.
+Esta aplicação demonstra uma API que lê e expõe dados CSV para consulta de informações. A API foi criada para ser facilmente escalável, permitindo que os dados CSV obtidos na GeoSampa sejam acessados em formato JSON para análise e integração em sistemas de visualização de dados e inteligência urbana.
