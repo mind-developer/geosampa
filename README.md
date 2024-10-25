@@ -9,7 +9,7 @@ Este projeto é uma prova de conceito para a GeoSampa, criada com o objetivo de 
   - **`get-csv.routes.ts`**: Define as rotas para a API de CSV.
   - **`get-csv.controller.ts`**: Controlador que gerencia as requisições e respostas.
   - **`get-csv.service.ts`**: Serviço que lê o CSV e transforma os dados em JSON.
-- **`src/routes/index.ts`**: Arquivo principal de rotas que integra as rotas do módulo `get-csv`.
+- **`src/routes/server.ts`**: Arquivo principal de rotas que integra as rotas do módulo `get-csv`.
 
 ## Requisitos
 
@@ -20,8 +20,8 @@ Este projeto é uma prova de conceito para a GeoSampa, criada com o objetivo de 
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL do repositório>
-   cd nome-do-repositorio
+   git clone https://github.com/mind-developer/geosampa-cp.git
+   cd geosampa-cp
 
 2. **Instale as dependências:**
    ```bash
@@ -46,14 +46,30 @@ Retorna os dados do arquivo CSV em formato JSON.
 - **Exemplo de resposta:**
    ```json
    [
-     {
-       "Ano": "2010",
-       "IDH": "0.805",
-       "Nome_UH": "Subprefeitura Lapa",
-       ...
-     },
-     ...
-   ]
+    {
+        "COD_ID": "1355030801001",
+        "NOME_UDH": "Jardim Anália Franco / Vila Formosa",
+        "NOME_MUN": "São Paulo (SP)",
+        "ANO": "2000",
+        "ESPVIDA": "76.57",
+        "T_ANALF15M": "2.35",
+        "T_FBMAS": "104.75",
+        "GINI": "0.47",
+        "RDPC": "1562.09"
+    },
+    {
+        "COD_ID": "1355030802002",
+        "NOME_UDH": "Mooca / Tatuapé",
+        "NOME_MUN": "São Paulo (SP)",
+        "ANO": "2010",
+        "ESPVIDA": "78.23",
+        "T_ANALF15M": "2.15",
+        "T_FBMAS": "105.34",
+        "GINI": "0.45",
+        "RDPC": "1684.32"
+    }
+  ]
+
 
 ### Exemplo de Uso
 Abra seu navegador ou uma ferramenta como o **Postman** e faça uma requisição GET para:
