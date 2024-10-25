@@ -6,3 +6,4 @@ jspm_packages/
 # lock files
 yarn.lock
 package-lock.json
+dist/
